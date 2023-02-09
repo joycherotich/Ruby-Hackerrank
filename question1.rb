@@ -1,3 +1,5 @@
+# Introduction
+
 def iterate_colors(colors)
   # Your code here
     arr = []

@@ -1,3 +1,5 @@
+# Each_with_index
+
 def skip_animals(animals, skip)
     # Your code here
       arr = []
