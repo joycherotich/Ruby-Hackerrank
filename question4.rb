@@ -1,5 +1,8 @@
- # Reduce
-def sum_terms(n)
+#Collect
+
+def rot13(secret_messages)
     # your code here
-      (1..n).inject(0) {|sum, i| sum +(i ** 2) + 1}
+      input = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
+      output = 'NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm'
+      secret_messages.collect { |str| str.tr(input, output)}
   end

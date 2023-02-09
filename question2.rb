@@ -1,8 +1,9 @@
-# Each_with_index
+# Introduction
 
-def skip_animals(animals, skip)
-    # Your code here
-      arr = []
-      animals.each_with_index {|animal, i| arr.push("#{i}:#{animal}") if i >= skip}
-      arr
-  end
+def iterate_colors(colors)
+  # Your code here
+    arr = []
+    colors.each do |color|
+        arr << color
+    end
+end
